@@ -18,13 +18,16 @@
 - 신규 생산 공정에서 확보된 정사 샘플 이미지 데이터를 활용하여, 추후 발생할 수 있는 비정상 샘플을 정확히 식별해내는 AI 기반의 솔루션 개발을 하고자 함.
 
 ## 프로젝트 설명
-
+정상 샘플 이미지를 기반으로 비정상 제품을 식별하는 AI 품질 검사 시스템 개발.
 
 ## 분석 결과
 ### 최종 모델 선정: EfficientNet-b0 + One Class SVM
 - EfficientNet(특성추출) + One Class SVM(이상탐지)를 함께 썼을 때 가장 성능이 좋았음.
 - 비지도에 따른 이상치 탐지 모델은 반도체 데이터에 대해 높은 정확도와 재현율을 보이며 우수한 성능을 보임.
-![image](https://github.com/cheong0412/Anomaly_Detection_in_Semiconductor_Devices/assets/153011230/06bccce5-00af-4b35-88c4-dbaa10fa0b1a)
+<img width="476" height="373" alt="데이터" src="https://github.com/user-attachments/assets/e3a77818-d472-4df0-acf3-0eea9b2b93c0" />
+
+<img width="358" height="293" alt="분석 과정" src="https://github.com/user-attachments/assets/193881c6-6193-4d98-a0c0-8190ef3bed06" />
+<img width="1490" height="653" alt="분석결과1" src="https://github.com/user-attachments/assets/17ddd199-db29-4170-bfed-4b42693cc640" />
 
 
 ## 기대 효과
